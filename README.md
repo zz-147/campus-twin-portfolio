@@ -6,7 +6,7 @@
 | 资源 | 链接 |
 |---|---|
 | 💻 代码仓库 | [github.com/zz-147/campus-twin](https://github.com/zz-147/campus-twin) |
-| 📄 作品集 PDF（15 页） | [作品集.pdf](./作品集.pdf) |
+| 📄 作品集 PDF（17 页） | [作品集.pdf](./作品集.pdf) |
 | 📊 作品集 PPTX 源文件 | [作品集.pptx](./作品集.pptx) |
 | 🧠 面试问答手册 | [面试问答手册.md](./面试问答手册.md) |
 | 🤖 飞书机器人 | [飞书机器人接入.md](./飞书机器人接入.md) · [实现说明](./飞书机器人.md) |
@@ -21,7 +21,7 @@
 | 故障检测 | 端口注入 → **5 秒内** critical 告警；NC 告警清除滞后 >3 分钟 → 自建恢复判定 + `stale_source` |
 | AI Agent | **LangGraph** StateGraph 12 节点、8 role 并行、23 工具（17 原生 + 6 MCP）、SSE 流式（实测 2600+ token 事件）、RAG 18 知识块 |
 | MCP | 自建 **MCP Server**（10 tools / 4 resources / 3 prompts）+ **MCP Client 桥接**（filesystem 14 + memory 9 = 23 工具） |
-| 测试 | 后端 **171** / Agent **256** / MCP Server **30** + Bridge **10** tests，全离线可跑 |
+| 测试 | 后端 **171** / Agent **277** / MCP Server **30** + Bridge **10** tests，全离线可跑 |
 | 评测 | **38 场景**（LangGraph / 自研双引擎）：根因 100%、设备定位 100%、动作正确率 100%、**自动执行违规 0** |
 | 飞书机器人 | 长连接双向接入（无需公网）：状态/告警/路径/读配置/任意问答，白名单+限流+去重，写操作只提示不执行 |
 | RAG 评测（W15） | 107 chunk / 48 query / 4 配置：recall@5 1.0、MRR 0.877、引用准确率 0.333、faithfulness 0.660 |
