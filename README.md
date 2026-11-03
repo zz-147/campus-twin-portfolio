@@ -3,6 +3,10 @@
 > 以 Cisco Packet Tracer 9 + Network Controller 真实 REST API 为数据源，构建「采集—检测—归因—建议—验证」运维闭环；
 > AI 侧用 **LangGraph 多 Agent** 编排，支持流式对话、RAG 引用、人机确认写操作与 **MCP 双向集成**；前端为 Three.js 3D 数字孪生大屏。
 
+<p align="center">
+  <img src="作品集截图/15-系统架构图.png" alt="系统架构" width="880">
+</p>
+
 | 资源 | 链接 |
 |---|---|
 | 💻 代码仓库 | [github.com/zz-147/campus-twin](https://github.com/zz-147/campus-twin) |
